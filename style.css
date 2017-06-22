@@ -1,0 +1,95 @@
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fa-search {
+  color: #7c7891;
+}
+
+.searchCom {
+  position: relative;
+}
+
+.searchBar {
+  background-color: #443f5d;
+  width: 100%;
+  height: 50px;
+  border-top: 5px solid black;
+}
+
+.searchForm {
+  padding: 10px 0 0 15px;
+}
+.searchForm__searchInput {
+  background-color: #443f5d;
+  border: none;
+  border-bottom: 1px solid #7c7891;
+  width: 54%;
+  outline: none;
+  color: #ffffff;
+}
+
+.searchResult .searchResult__list {
+  min-height: 56px;
+  padding: 15px;
+  height: auto;
+  display: block;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+.searchResult .searchResult__list:nth-child(even) {
+  background-color: #e8e8e8;
+}
+.searchResult .searchResult__list:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+.searchResultContainer {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  z-index: 1;
+}
+.searchResult__row {
+  display: flex;
+  justify-content: space-between;
+}
+.searchResult__row .name {
+  font-family: arial;
+  color: #3d3d3d;
+  font-size: 22px;
+}
+.searchResult__row .row__cell--phone, .searchResult__row .row__cell--email, .searchResult__row .row__cell--policy {
+  font-family: arial;
+  font-weight: bold;
+  color: #3d3d3d;
+}
+.searchResult__row .row__cell--phone {
+  margin-right: 30px;
+}
+
+.cell {
+  width: 50%;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+  margin-right: 5px;
+}
+
+.row {
+  width: 100%;
+}
+.row:first-child {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .searchResult__row {
+    flex-direction: column;
+  }
+  .searchResult__row span {
+    margin-bottom: 5px;
+  }
+}

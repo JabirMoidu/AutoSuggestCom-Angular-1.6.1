@@ -1,0 +1,24 @@
+<div class="searchCom">
+  <div class="searchBar">
+    <div class="searchForm">
+      <i class="fa fa-search"></i>
+      <input class="searchForm__searchInput" placeholder="SEARCH (Client Name / Policy Number) " type="text" ng-model="asc.keyWord" ng-change="asc.onKeyPress({keyWord: asc.keyWord})">
+    </div>
+  </div>
+  <div ng-if="asc.resultArr.length" class="searchResultContainer">
+    <ul class="searchResult">
+      <li class="searchResult__list" ng-repeat="item in asc.resultArr">
+        <div class="row searchResult__row">
+          <span class="name">{{item.name}}</span>
+        </div>
+        <div class="row searchResult__row">
+            <span class="row__cell--phone"><i class="fa fa-phone"></i>{{item.phone}}</span>
+            <span class="row__cell--email"><i class="fa fa-at"></i>{{item.email}}</span>
+            <span class="row__cell--policy"><i class="fa fa-file-text"></i>Policy No. {{item.policy_no}} | {{item.policy_no}}</span>
+        </div>
+
+      </li>
+    </ul>
+  </div>
+
+</div>
