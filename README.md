@@ -28,5 +28,12 @@ This component has been created as an element. It is as given below.
 
 [AutoSuggest Component - Plunker Link](https://plnkr.co/edit/5ffaNVgxwc6XCIc4n7th?p=preview) 
 
+## AutoSuggest Component
+
+![ScreenShot](search-com.png)
+
+## AutoSuggest Result
+
+![ScreenShot](search-com-result.png)
 
 
