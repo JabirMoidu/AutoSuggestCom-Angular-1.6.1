@@ -25,8 +25,8 @@ This component has been created as an element. It is as given below.
 
 ## Plunker Link
 
-```HTML
 
-<a href="https://plnkr.co/edit/5ffaNVgxwc6XCIc4n7th?p=preview">AutoSuggest Component - Plunker Link</a>
+[AutoSuggest Component - Plunker Link](https://plnkr.co/edit/5ffaNVgxwc6XCIc4n7th?p=preview) 
 
-```
+
+
