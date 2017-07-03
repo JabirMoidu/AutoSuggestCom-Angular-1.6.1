@@ -22,3 +22,11 @@ This component has been created as an element. It is as given below.
 ## Style Applied
 
 "fontawesome" icons have been used to show different icons in the page and SCSS file has been created for writing the style.
+
+## Plunker Link
+
+```HTML
+
+<a href="https://plnkr.co/edit/5ffaNVgxwc6XCIc4n7th?p=preview">AutoSuggest Component - Plunker Link</a>
+
+```
